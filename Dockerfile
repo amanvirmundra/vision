@@ -41,5 +41,6 @@ RUN 	    git clone https://github.com/opencv/opencv.git \
 	    -D INSTALL_C_EXAMPLES=ON \
 	    -D INSTALL_PYTHON_EXAMPLES=ON \
 	    -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules \
-	    -D BUILD_EXAMPLES=ON ..
+	    -D BUILD_EXAMPLES=ON .. \
+	    && make -j4 \
 	    && make install 
