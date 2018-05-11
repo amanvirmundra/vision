@@ -8,7 +8,7 @@ RUN         apt-get update && \
 	    pkg-config \
 	    wget \
 	    git \
-	    libjpeg8-dev libtiff4-dev libjasper-dev libpng12-dev \
+	    libjpeg-dev libtiff-dev libjasper-dev libpng-dev \
 	    libavcodec-dev libavformat-dev libswscale-dev libv4l-dev \
 	    libgtk2.0-dev \
 	    libatlas-base-dev gfortran \
